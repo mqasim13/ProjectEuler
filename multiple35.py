@@ -10,7 +10,7 @@ def multiple35(limit):
 		# Check to see if divisible by 3, if so add to sum
 		elif i % 3 == 0:
 				sum += i
-		# If neithe of the above keep sum the same
+		# If neither of the above keep sum the same
 		else:
 			sum = sum
 	return sum
